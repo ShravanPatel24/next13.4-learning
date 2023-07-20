@@ -7,7 +7,6 @@ export default function Home() {
   const router = useRouter();
   return (
     <main className={styles.main}>
-      <h1>Home Page</h1>
       <button
         style={{ cursor: "pointer" }}
         type="button"

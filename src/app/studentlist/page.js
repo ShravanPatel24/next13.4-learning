@@ -5,7 +5,7 @@ export default function StudentList() {
 
   return (
     <div>
-      <h1>Student List</h1>
+      <h2>Student List</h2>
       <ul>
         {names.map((name) => (
           <li key={name.id}>
